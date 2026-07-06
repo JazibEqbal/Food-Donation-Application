@@ -5,6 +5,7 @@ from app.routers.auth import router as auth_router
 from app.routers.donations import router as donation_router
 from app.models.donation import Donation
 from app.models.user import User
+from app.models.request import DonationRequest
 
 
 Base.metadata.create_all(bind=engine)
