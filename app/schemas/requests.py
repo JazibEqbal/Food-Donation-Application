@@ -11,7 +11,7 @@ class RequestCreate(BaseModel):
 class RequestResponse(BaseModel):
     id: int
     donation_id: int
-    ngo_id: int
+    requester_id: int
     status: RequestStatus
     requested_at: datetime
 

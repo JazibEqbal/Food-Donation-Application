@@ -2,9 +2,7 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 
 from app.dependencies import require_role, get_db
-from app.enums.donation import DonationStatus
 from app.enums.user import UserRole
-from app.models.donation import Donation
 from app.models.user import User
 from app.schemas.donation import DonationResponse, DonationCreate
 from app.service import donation_service
