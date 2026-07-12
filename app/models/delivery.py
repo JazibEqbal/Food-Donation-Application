@@ -27,7 +27,7 @@ class Delivery(Base):
 
     status = Column(
         Enum(DeliveryStatus),
-        default=DeliveryStatus.IN_TRANSIT,
+        default=DeliveryStatus.ASSIGNED,
         nullable=False,
     )
 
