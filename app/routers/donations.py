@@ -5,7 +5,7 @@ from app.dependencies import require_role, get_db
 from app.enums.user import UserRole
 from app.models.user import User
 from app.schemas.donation import DonationResponse, DonationCreate
-from app.service import donation_service
+from app.services import donation_service
 
 router = APIRouter(
     prefix="/donations",

@@ -9,7 +9,7 @@ from app.schemas.requests import (
     RequestCreate,
     RequestResponse,
 )
-from app.service import request_service
+from app.services import request_service
 
 router = APIRouter(
     prefix="/requests",
