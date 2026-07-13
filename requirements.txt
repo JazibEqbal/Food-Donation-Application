@@ -7,3 +7,6 @@ python-multipart
 email-validator
 argon2_cffi
 passlib
+pytest
+pytest-cov
+httpx
