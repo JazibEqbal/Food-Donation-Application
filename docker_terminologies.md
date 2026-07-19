@@ -60,7 +60,7 @@ Docker packages everything the application needs into one unit. Therefore, anyon
 
     view logs of a container: docker logs <container_id>
 
-    run a container in detached mode: docker run --p <host_port>:<container_port> --name my_app <image_name>
+    run a container in detached mode: docker run -d -p <host_port>:<container_port> --name my_app <image_name>
     
 ### Docker File
 - A Dockerfile is simply a step-by-step instructions to build a Docker image.
